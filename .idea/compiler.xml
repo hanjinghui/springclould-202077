@@ -10,9 +10,13 @@
         <module name="hjh-eurake-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hjh-eurake-client1" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hjh-eurake-client" options="-parameters" />
       <module name="hjh-eurake-server" options="-parameters" />
     </option>
   </component>

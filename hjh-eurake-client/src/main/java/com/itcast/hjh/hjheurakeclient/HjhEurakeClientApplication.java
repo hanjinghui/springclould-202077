@@ -1,4 +1,4 @@
-package com.itcast.hjh;
+package com.itcast.hjh.hjheurakeclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class HjhRurakeClientApplication {
+public class HjhEurakeClientApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(HjhRurakeClientApplication.class,args);
+        SpringApplication.run(HjhEurakeClientApplication.class, args);
     }
+
 }
